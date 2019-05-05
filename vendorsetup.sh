@@ -1,1 +1,1 @@
-add_lunch_combo aokp_whyred-userdebug
+add_lunch_combo ctosp_whyred-userdebug

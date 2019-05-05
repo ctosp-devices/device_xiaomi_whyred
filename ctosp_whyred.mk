@@ -27,9 +27,9 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit some common AOKP stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
+$(call inherit-product, vendor/ctosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := aokp_whyred
+PRODUCT_NAME := ctosp_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -41,7 +41,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="whyred" \
     PRODUCT_NAME="whyred" \
     PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEIMIFA release-keys" \
-    DEVICE_MAINTAINERS=" Adi (adi20_01) "
+    DEVICE_MAINTAINERS=" JochenSplifficus "
 
 BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIFA:user/release-keys
 
